@@ -19,5 +19,6 @@
    (:module :de.setf
     :pathname #p"LIBRARY:de;setf;utility;asdf;"
     :components ((:file "patches")
+                 (:file "operators")
                  (:file "hierarchical-names")
                  (:file "contingent-on")))))
