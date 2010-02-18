@@ -51,6 +51,8 @@
 
 #+xcvb (module ())
 
+(in-package :common-lisp-user)
+
 (defpackage #:asdf
   (:documentation "Another System Definition Facility")
   (:export #:defsystem #:oos #:operate #:find-system #:run-shell-command
